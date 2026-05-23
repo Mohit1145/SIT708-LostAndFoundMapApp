@@ -1,0 +1,51 @@
+package com.example.lostandfoundmapapp__;
+
+public class ItemModel {
+
+    private int id;
+    private String type;
+    private String name;
+    private String phone;
+    private String description;
+    private String date;
+    private String location;
+    private String imageUri;
+    private double latitude;
+    private double longitude;
+
+    public ItemModel(int id, String type, String name, String phone,
+                     String description, String date, String location,
+                     String imageUri, double latitude, double longitude) {
+
+        this.id = id;
+        this.type = type;
+        this.name = name;
+        this.phone = phone;
+        this.description = description;
+        this.date = date;
+        this.location = location;
+        this.imageUri = imageUri;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+    public int getId() { return id; }
+
+    public String getType() { return type; }
+
+    public String getName() { return name; }
+
+    public String getPhone() { return phone; }
+
+    public String getDescription() { return description; }
+
+    public String getDate() { return date; }
+
+    public String getLocation() { return location; }
+
+    public String getImageUri() { return imageUri; }
+
+    public double getLatitude() { return latitude; }
+
+    public double getLongitude() { return longitude; }
+}
